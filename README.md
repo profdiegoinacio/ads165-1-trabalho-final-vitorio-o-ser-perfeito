@@ -17,7 +17,7 @@ Este projeto é um CRUD básico de cartas (Trading Card Game) utilizando **Sprin
 
 ---
 
-## 🗂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -61,7 +61,7 @@ npm run dev
 
 ---
 
-## 🌐 Endpoints da API
+## Endpoints da API
 
 Base URL: `http://localhost:8080/api/v1/cartas`
  GET     `/cartas`          Lista todas as cartas             
