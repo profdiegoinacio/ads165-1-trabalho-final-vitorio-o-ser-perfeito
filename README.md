@@ -42,10 +42,10 @@ Este projeto é um CRUD básico de cartas (Trading Card Game) utilizando **Sprin
 
 ### Backend (Spring Boot)
 
-```bash
-cd backend
-./mvnw spring-boot:run
-```
+1. Abra o projeto no IntelliJ
+2. No topo direito da IDE, selecione **`ApiApplication`** no seletor de configurações
+3. Clique no botão **Run (▶️)**
+4. A aplicação será iniciada e você verá os logs no terminal inferior
 
 > A aplicação estará disponível em: http://localhost:8080
 
