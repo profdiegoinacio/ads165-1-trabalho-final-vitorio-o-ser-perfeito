@@ -1,5 +1,6 @@
 package com.upf.backend.controller;
 
+import com.upf.backend.exception.UserNotFoundException;
 import com.upf.backend.model.User;
 import com.upf.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,7 @@ public class UserController {
     @GetMapping("/user/{id}")
     User getUserById(@PathVariable Long id){
         return userRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Usuario nao encontrado"));
+                .orElseThrow(() -> new UserNotFoundException(id));
     }
 
 }
