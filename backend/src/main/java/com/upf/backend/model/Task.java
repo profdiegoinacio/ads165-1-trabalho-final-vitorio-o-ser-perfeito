@@ -7,7 +7,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.EnumType;
 
 @Entity
-public class Category {
+public class Task {
 
     @Id
     @GeneratedValue
