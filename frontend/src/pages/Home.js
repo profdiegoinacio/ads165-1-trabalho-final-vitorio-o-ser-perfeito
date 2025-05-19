@@ -26,11 +26,11 @@ export default function Home() {
         <div className="container py-4">
             <div className="d-flex justify-content-between align-items-center mb-3">
                 <h4 className="mb-0">Usuarios</h4>
-                <Link className="btn btn-outline-dark" to="/adduser">Adicionar Usuario</Link>
+                <Link className="btn btn-outline-light" to="/adduser">Adicionar Usuario</Link>
             </div>
 
             <div className="table-responsive">
-                <table className="table table-bordered shadow">
+                <table className="table table-dark table-bordered shadow">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
