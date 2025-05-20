@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7840f67-230f-491e-8559-140928ea47a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/upf/backend/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/upf/backend/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/upf/backend/exception/TaskNotFoundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/upf/backend/exception/TaskNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -88,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747695711445</updated>
-      <workItem from="1747695713227" duration="2166000" />
+      <workItem from="1747695713227" duration="4405000" />
     </task>
     <servers />
   </component>
